@@ -4,6 +4,7 @@
 [![Build Status](https://travis-ci.com/thomasgeissl/ofOSC2MIDI.svg?branch=master)](https://travis-ci.com/thomasgeissl/ofOSC2MIDI)
 
 ## Description
+Please note that this is still a work in progress. 
 
 ## Installation
 ### osx

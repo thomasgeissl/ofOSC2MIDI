@@ -26,7 +26,3 @@ brew install ofosc2midi
 
 * list midi ports: `ofOSC2MIDI -l`
 * listen: `ofOSCMIDI -a /ofOSC2MIDI -p 8000 -m 0`
-
-## TODO
-* MIDI2OSC
-* add to brew tap

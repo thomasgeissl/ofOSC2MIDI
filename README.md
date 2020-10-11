@@ -24,7 +24,7 @@ brew install ofosc2midi
 * polyaftertouch: (channel, status, pitch, value), e.g. ofOSCDebugger -h 127.0.0.1 -p 8000 -m "/ofOSC2MIDI 1 160 60 127"
 
 
-* list midi ports: `ofOSCMIDI -l`
+* list midi ports: `ofOSC2MIDI -l`
 * listen: `ofOSCMIDI -a /ofOSC2MIDI -p 8000 -m 0`
 
 ## TODO

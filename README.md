@@ -16,12 +16,12 @@ brew install ofosc2midi
 ```
 
 ## Usage
-* noteon: (channel, status, note, velocity), e.g. ofOscDebugger -h 127.0.0.1 -p 8000 -m "/ofOSC2MIDI 1 144 60 127"
-* noteoff: (channel, status, note, velocity), e.g. ofOscDebugger -h 127.0.0.1 -p 8000 -m "/ofOSC2MIDI 1 128 60 127"
-* program change: (channel, status, value), e.g. ofOscDebugger -h 127.0.0.1 -p 8000 -m "/ofOSC2MIDI 1 192 1"
-* control change: (channel, status, control, value), e.g. ofOscDebugger -h 127.0.0.1 -p 8000 -m "/ofOSC2MIDI 1 224 1 127"
-* pitch bend: (channel, status, value), e.g. ofOscDebugger -h 127.0.0.1 -p 8000 -m "/ofOSC2MIDI 1 176 127"
-* polyaftertouch: (channel, status, pitch, value), e.g. ofOscDebugger -h 127.0.0.1 -p 8000 -m "/ofOSC2MIDI 1 160 60 127"
+* noteon: (channel, status, note, velocity), e.g. ofOSCDebugger -h 127.0.0.1 -p 8000 -m "/ofOSC2MIDI 1 144 60 127"
+* noteoff: (channel, status, note, velocity), e.g. ofOSCDebugger -h 127.0.0.1 -p 8000 -m "/ofOSC2MIDI 1 128 60 127"
+* program change: (channel, status, value), e.g. ofOSCDebugger -h 127.0.0.1 -p 8000 -m "/ofOSC2MIDI 1 192 1"
+* control change: (channel, status, control, value), e.g. ofOSCDebugger -h 127.0.0.1 -p 8000 -m "/ofOSC2MIDI 1 224 1 127"
+* pitch bend: (channel, status, value), e.g. ofOSCDebugger -h 127.0.0.1 -p 8000 -m "/ofOSC2MIDI 1 176 127"
+* polyaftertouch: (channel, status, pitch, value), e.g. ofOSCDebugger -h 127.0.0.1 -p 8000 -m "/ofOSC2MIDI 1 160 60 127"
 
 
 * list midi ports: `ofOSCMIDI -l`

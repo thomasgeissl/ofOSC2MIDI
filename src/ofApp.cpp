@@ -2,6 +2,7 @@
 
 ofApp::ofApp(int port, std::string address, int midiPort) : _port(port), _address(address), _midiPort(midiPort) {}
 void ofApp::setup(){
+    _receiver.setup(_port);
     if(_midiPort < _midiOut.getNumOutPorts()){
         _midiOut.openPort(_midiPort);
     }else{

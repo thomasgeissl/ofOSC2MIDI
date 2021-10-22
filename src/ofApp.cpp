@@ -24,6 +24,8 @@ void ofApp::update(){
 			auto channel = m.getArgAsInt(0);
 			auto status = m.getArgAsInt(1);
 
+            ofLogNotice() << "ch " << channel << ", status " << status;
+
             switch(status){
                 case MIDI_NOTE_ON: {
                     if(numberOfArguments >= 4){
